@@ -1,0 +1,187 @@
+		@font-face 
+		{
+  			font-family: 'PT Sans';
+  			font-style: normal;
+  			font-weight: 400;
+  			src: local('PT Sans'), local('PTSans-Regular'), url(https://fonts.gstatic.com/s/ptsans/v8/ATKpv8nLYAKUYexo8iqqrg.woff2) 
+  			format('woff2');
+  			unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+		}
+		body
+		{
+			height: 2000px;
+			font-family: 'PT Sans', sans-serif;
+			color: #333333;
+			font-size: 12px;
+			font-weight: 400;
+			text-align: left;
+		}
+		.wrapper
+		{
+			position: relative;
+			margin: auto;
+			margin-top: 200px;
+			width: 563px;
+		}
+		.wrapper > *, .mark
+		{
+			position: absolute;	
+			border-width: 2px;
+			border-color: #000000;
+			border-style: solid;
+			width: 519px;
+			height: 746px;
+		}
+		.front
+		{	
+			background-color: #ebebeb;
+			width: 519px;
+			height: 746px;
+		}
+		.middle
+		{
+			top: 20px;
+			left: 20px;
+			background-color: #cccccc;			
+		}
+		.back
+		{
+			top: 40px;
+			left: 40px;
+			background-color: #acacac;
+		}
+		.mark
+		{
+			border-bottom-right-radius: 10px;
+			border-top-right-radius: 10px;
+			height: 31px;
+			width: 95px;
+		}
+		.back .mark
+		{
+			top: 47px;
+			left: 439px;
+			background-color: #00aeef;
+		}
+		.middle .mark
+		{
+			top: 43px;
+			left: 471px;
+			background-color: #39b54a;
+		}
+		.front .mark
+		{
+			top: 39px;
+			left: 493px;
+			background-color: #f68e56;
+			width: 107px;
+		}
+		article
+		{
+			margin: 40px 32px 26px 32px;
+			position: absolute;
+			height: 680px;
+		}
+		h1
+		{
+			font-weight: 400;
+			font-size: 2em;
+			margin-top: -8px;
+			margin-left: -2px;
+			margin-bottom: -3px;
+		}
+		p
+		{
+			font-size: 1em;
+			font-weight: 400;
+			line-height: 14px;
+		}
+		.first-p img
+		{
+			float: left;			
+			margin-right: 21px;
+			margin-top: 3px;
+		}
+		.second-p
+		{
+			position: relative;
+			top: 8px;
+		}
+		.second-p img
+		{
+			float: right;	
+			margin-top: 4px;
+			margin-left: 4px;		
+		}
+		.third-p
+		{
+			position: relative;
+			top: 23px;
+			clear: both;
+		}
+		.third-p h2
+		{
+			font-weight: 400;
+		}
+		.third-p img
+		{
+			top: 6px;
+		}
+		.third-p img[src*="joke1"]
+		{
+			position: relative;
+		}
+		.third-p img[src*="joke2"]
+		{
+			position: relative;
+			float: right;
+		}
+		.third-p img[src*="joke3"]
+		{
+			position: relative;
+			top: 16px;
+		}
+		.third-p img[src*="joke4"]
+		{
+			position: relative;
+			float: right;
+			top: 16px;
+		}
+		article footer
+		{
+			position: relative;
+			top: 50px;
+		}
+		footer p
+		{
+			line-height: 11px;
+			font-size: 0.75em;
+			text-align: center;
+		}
+		.share
+		{
+			position: fixed;
+			bottom: 28px;
+			right: 0px;
+			border-width: 1px;
+			border-color: #362f2d;
+			border-style: solid;
+			background-color: #fbaf5d;
+			width: 87px;
+			height: 69px;
+		}
+		.share h3
+		{
+			text-align: center;
+			font-size: 16px;
+			font-weight: 400;
+			position: relative;
+			top: -10px;
+		}
+		.share img 
+		{
+			position: relative;
+			display: block;
+			margin: 0 auto;
+			bottom: 21px;
+		}
